@@ -24,7 +24,7 @@ allprojects {
 添加依赖
 
 	dependencies {
-	        compile 'com.github.showwiki:ExpandView:1.0.1'
+	        compile 'com.github.showwiki:ExpandView:1.0.2'
 	}
 
 
