@@ -85,10 +85,6 @@ public class ExpandView extends LinearLayout implements PopupWindow.OnDismissLis
             expand_drop_list_item = a.getResourceId(R.styleable.ExpandView_subListviewItemLayout, R.layout.expand_drop_list_item);
             checkTitleValid(titleTextViewLayout);
             checkListItemLayoutValid(expand_drop_list_item);
-
-
-        } catch (Exception e) {
-            e.printStackTrace();
         } finally {
             if(a != null)
             a.recycle();
