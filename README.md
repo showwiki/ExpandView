@@ -69,7 +69,7 @@ private HashMap<String,List<String>> initData() {
 选中监听，设置 ，让背景变暗也可以在此设置。
 
 ```
-ev.setmOnChooseListener(new ExpandView.OnChooseListener() {
+ev.setOnChooseListener(new ExpandView.OnChooseListener() {
     @Override
     public void onChoose(List<TextView> textLists, int pos) {
         Toast.makeText(MainActivity.this, textLists.get(pos).getText() + "is Choose", Toast.LENGTH_LONG).show();
