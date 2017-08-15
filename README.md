@@ -97,7 +97,7 @@ ev.setOnFoldListener(new ExpandView.OnFoldListener() {
 
 
 
-为了方便更改文字背景颜色，图片等，视图高度等，可以在传入头部TextView的布局app:titleTextViewLayout和下拉Listview的item的布局app:subListviewItemLayout，和限制最大高度 app:childViewHeight但记住需要有符合的id的TextView和ImageView， 如果不设置自定义的属性，则为默认值。
+为了方便更改文字背景颜色，图片等，视图高度等，可以在传入头部TextView的布局app:titleTextViewLayout和下拉Listview的item的布局app:subListviewItemLayout，和限制最大高度 app:childViewHeight但记住需要有符合的id的TextView和ImageView， 如果不设置自定义的属性，则为默认值, 视图高度限制默认在子ListView大于默设置高度时才有效果。
 
 
 
